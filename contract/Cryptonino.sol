@@ -6,6 +6,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Cryptonino is ERC20 {
     constructor(string memory name_, string memory symbol_) ERC20(name_, symbol_) { 
-        _mint(msg.sender, 9000000 * 1e18);  // 9,000,000 tokens (con 18 decimales)
+        _mint(msg.sender, 9000000 * 1e18);
     }
 }
